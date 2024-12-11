@@ -7,8 +7,8 @@
       "desc": "My portfolio website serves as a showcase for my projects, highlighting my skills and demonstrating what I can create.",
       "myJob": "",
       "tools": ["HTML", "CSS", "Javascript", "React", "TailwindCSS"],
-      "linkProject": "",
-      "linkDeploy": ""
+      "linkProject": "https://github.com/dkathrine/new-portfolio",
+      "linkDeploy": "https://portfolio-kathrine.vercel.app"
     },
     {
       "id": 2,
