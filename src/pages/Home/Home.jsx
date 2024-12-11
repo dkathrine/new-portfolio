@@ -26,7 +26,7 @@ const Home = () => {
                 description="Hi, I'm Kathrine, a web developer based in Germany/NRW. I create user-friendly and functional websites. Check out my portfolio and let's collaborate!"
                 keywords="web developer, Kathrine Beuth, portfolio, Germany web developer, responsive design"
                 author="Kathrine Beuth"
-                ogUrl=""
+                ogUrl="https://portfolio-kathrine.vercel.app"
                 ogImage="./showcase_img_portfolio.jpg"
             />
             <div className={`${isMobile && 'general_container'} home_container`}>

@@ -42,7 +42,7 @@ const ProjectPage = () => {
                     description={`${project.title} is a ${project.type} project developed by me. ${project.desc}`}
                     keywords={`${project.title}, ${project.type}, ${project.tools.join(", ")}, Kathrine Beuth, web development projects`}
                     author="Kathrine Beuth"
-                    ogUrl={`/project/${project.id}`}
+                    ogUrl={`https://portfolio-kathrine.vercel.app/project/${project.id}`}
                     ogImage={project.img[0]}
                 />
             )}

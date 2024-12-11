@@ -28,7 +28,7 @@ const AboutMe = () => {
                 description="Learn more about me, a full-stack web developer with expertise in front-end and back-end technologies. Discover my skills, experience, education, and more."
                 keywords="about Kathrine Beuth, full-stack developer, web development skills, experience, education, connect, portfolio"
                 author="Kathrine Beuth"
-                ogUrl=""
+                ogUrl="https://portfolio-kathrine.vercel.app/about"
                 ogImage="./showcase_img_portfolio_aboutme.jpg"
             />
             <div className='general_container about_container'>

@@ -30,7 +30,7 @@ const Projects = () => {
                 description="Explore my projects! View my portfolio of functional and user-friendly websites."
                 keywords="web development projects, portfolio, Kathrine Beuth, Germany web developer, creative designs"
                 author="Kathrine Beuth"
-                ogUrl=""
+                ogUrl="https://portfolio-kathrine.vercel.app/projects"
                 ogImage="./showcase_img_portfolio_projects.jpg"
             />
             <main className='projects_main general_container'>
