@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "title": "My Portfolio",
+      "type": "Portfolio Website",
+      "img": ["/showcase_img_portfolio.jpg"],
+      "desc": "My portfolio website serves as a showcase for my projects, highlighting my skills and demonstrating what I can create.",
+      "myJob": "",
+      "tools": ["HTML", "CSS", "Javascript", "React", "TailwindCSS"],
+      "linkProject": "",
+      "linkDeploy": ""
+    },
+    {
+      "id": 2,
+      "title": "Neues aus Aschaffenburg",
+      "type": "News Website",
+      "img": ["/showcase_img_naa.jpg", "/showcase_img_naa2.jpg", "/showcase_img_naa3.jpg", "/showcase_img_naa4.jpg", "/showcase_img_naa5.jpg", "/showcase_img_naa6.jpg", "/showcase_img_naa7.jpg"],
+      "desc": "Neues aus Aschaffenburg is a news website designed to aggregate and showcase local news from the Aschaffenburg area, providing a centralized platform for regional updates.",
+      "myJob": "<p>This project showcases a website built from a design crafted in <strong>Adobe XD</strong> by the in-house designer. Leveraging <strong>React</strong>, I contributed extensively to the development process, implementing key features and ensuring a seamless user experience.</p><h3>Key Contributions:</h3><ul><li><strong>Navigation & Footer:</strong> Designed and implemented the fully responsive navbar with a burger menu and developed the website footer.</li><li><strong>Landing Page & Core Components:</strong> Played a central role in creating the landing page and various reusable components, including: Buttons and their interactive states, Popular-cards, Picture-cards, and Newest-cards for showcasing content dynamically, Special news cards and an environmental display component.</li><li><strong>Animations & Interactions:</strong> Developed loading and fade-in animations to enhance the user experience, as well as \"Show More/Less\" functionality for interactive content display.</li><li><strong>Responsiveness:</strong> Optimized layouts and components for various screen sizes.</li></ul><p>This project reflects my ability to transform design concepts into fully functional, user-friendly web applications with attention to detail and performance.</p>",
+      "tools": ["HTML", "CSS", "Javascript", "React", "GIT", "Github"],
+      "linkProject": "https://github.com/dkathrine/naa-frontend",
+      "linkDeploy": ""
+    },
+    {
+        "id": 3,
+        "title": "Fastlane Logistix",
+        "type": "Company Website",
+        "img": ["/showcase_img_fastlane.jpg", "/showcase_img_fastlane2.jpg", "/showcase_img_fastlane3.jpg"],
+        "desc": "Fastlane Logistix is a modern and responsive company website, with user-friendly navigation, professional design elements, and optimized performance to enhance online presence and customer engagement.",
+        "myJob": "<p>This project involved transforming a professionally designed <strong>Adobe XD</strong> prototype, crafted by the in-house designer, into a fully functional and responsive website using <strong>Vue.js</strong>.</p><h3>Key Contributions:</h3><ul><li><strong>Vue.js Application Setup:</strong> Established the foundation of the website as a Vue.js app using Vite.</li><li><strong>Vue Router Configuration:</strong> Implemented and configured the Vue Router to manage seamless navigation between pages.</li><li><strong>Navigation Bar Development:</strong> Designed and coded the website's responsive navigation bar, incorporating hover effects for an enhanced user experience.</li><li><strong>Page Development:</strong><ul><li>Developed the entire <strong>Landing Page</strong>, aligning closely with the design specifications to maintain visual consistency.</li><li>Also built the <strong>Legal Notice</strong> and <strong>Data Privacy</strong> pages with careful attention to detail.</li></ul></li><li><strong>Responsive Design:</strong> Ensured the website is fully responsive across a range of devices, providing an optimal user experience for all screen sizes.</li><li><strong>Transitions and User Experience Enhancements:</strong><ul><li>Added smooth fade-in transitions for page navigation, creating a polished and professional feel.</li><li>Optimized loading times by preloading background images and managing transitions effectively.</li></ul></li></ul><p>This project reflects my ability to turn a design concept into a dynamic, user-friendly website while prioritizing performance and responsiveness.</p>",
+        "tools": ["HTML", "CSS", "Javascript", "Vue", "GIT", "Github"],
+        "linkProject": "",
+        "linkDeploy": "https://www.fastlanelogistix.com"
+    },
+    {
+        "id": 4,
+        "title": "1. FC Südring",
+        "type": "Football Club Website",
+        "img": ["/showcase_img_fc_suedring.jpg", "/showcase_img_fc_suedring2.jpg"],
+        "desc": "FC Südring is a professional football club website showcasing team pictures, match schedules, a score history, and a gallery to highlight key moments.",
+        "myJob": "<p>This project involved transforming a design created in <strong>Adobe XD</strong> by the in-house designer into a fully functional website. Using modern development tools and frameworks, I brought the design to life with the following~</p><h3>Key Contributions:</h3><ul><li><strong>Project Setup:</strong> Initiated and structured the <strong>React</strong> project using <strong>Vite</strong> for an efficient development workflow.</li><li><strong>Navigation System:</strong> Implemented React Router to enable seamless navigation across the website.</li><li><strong>Core Components:</strong> Developed the landing page and a responsive navigation bar featuring a burger menu for mobile devices.</li><li><strong>Page Development:</strong><ul><li>Built the \"Jugend\" and \"Mannschaft\" pages.</li><li>Created the \"Legal Information\" and \"Data Privacy\" pages to meet compliance requirements.</li><li>Designed and implemented the \"Medien\" page.</li></ul></li><li><strong>Footer Integration:</strong> Added a dynamic and visually cohesive footer to complete the website layout.</li></ul><p>This project highlights my ability to collaborate with designers and turn static designs into interactive, user-friendly websites.</p>",
+        "tools": ["HTML", "CSS", "Javascript", "React", "GIT", "Github"],
+        "linkProject": "",
+        "linkDeploy": "https://www.fc-südring.de/"
+    },
+    {
+        "id": 5,
+        "title": "Career Threads",
+        "type": "Company/Jobmarket Website",
+        "img": ["/showcase_img_career_threads.jpg"],
+        "desc": "Career-Threads is a streamlined website presenting a categorized list of job markets, organized by different career fields, with a clean design for easy navigation and quick access to information.",
+        "myJob": "<p>For this project, I transformed a detailed <strong>Adobe XD</strong> design, created by the in-house designer, into a fully functional and responsive website. The development was done using <strong>React</strong>, initialized with <strong>Vite</strong>.</p><h3>Key Contributions:</h3><ul><li><strong>Project Initialization:</strong> Set up the React environment and implemented React Router for seamless navigation.</li><li><strong>Frontpage Development:</strong> Developed and styled the header, including mapping dynamic content and ensuring a cohesive design for all buttons.</li><li><strong>Privacy Compliance:</strong> Created a dedicated Data Privacy page to meet compliance requirements.</li><li><strong>Responsive Design:</strong> Integrated media queries to ensure the website is fully responsive across various devices.</li><li><strong>Interactive Features:</strong> Implemented a loading animation and developed a mobile-friendly burger menu for enhanced usability.</li></ul><p>This project highlights my ability to collaborate effectively with design teams, write clean, maintainable code, and focus on delivering a polished, user-centric digital experience.</p>",
+        "tools": ["HTML", "CSS", "Javascript", "React", "GIT", "Github"],
+        "linkProject": "",
+        "linkDeploy": "https://www.career-threads.de"
+    },
+    {
+        "id": 6,
+        "title": "YIP! Your Image Board",
+        "type": "Image Board Project",
+        "img": ["/showcase_img_yip.jpg", "/showcase_img_yip2.jpg", "/showcase_img_yip3.jpg", "/showcase_img_yip4.jpg","/showcase_img_yip5.jpg"],
+        "desc": "YIP! is an image board web application enabling users to register, log in, customize their profiles with a username and profile picture, share images, and engage with posts through comments.",
+        "myJob": "",
+        "tools": ["HTML", "CSS", "Javascript", "React", "MaterialUI", "Express.js", "MongoDB", "Mongoose", "GIT", "Github"],
+        "linkProject": "https://github.com/dkathrine/Image-Board",
+        "linkDeploy": ""
+    },
+    {
+        "id": 7,
+        "title": "Text Based Dungeon Crawler",
+        "type": "Terminal Based Mini \"Game\"",
+        "img": ["/showcase_img_terminal_game.jpg"],
+        "desc": "A terminal-based mini game created as part of a full-time web development course exercise. The task focused on practicing JavaScript by working in teams to design and build a terminal-only application.",
+        "myJob": "",
+        "tools": ["Javascript", "readline-sync", "Colors.js"],
+        "linkProject": "https://github.com/dkathrine/Text-Based-Dungeon-Crawler",
+        "linkDeploy": ""
+    }
+  ]

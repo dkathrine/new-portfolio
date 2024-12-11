@@ -1,0 +1,84 @@
+.button-container {
+    position: relative;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.button-container button {
+    width: 101%;
+    height: 100%;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    font-size: 15.92px;
+    background: #AD94C7;
+    -webkit-mask: url("/natureSmaller.png");
+    mask: url("/natureSmaller.png");
+    -webkit-mask-size: 7100% 200%;
+    mask-size: 7100% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    animation: none;
+    animation-play-state: paused;
+}
+
+.button-container button.hover-animate {
+    -webkit-animation: ani 0.7s steps(70) forwards;
+    animation: ani 0.7s steps(70) forwards;
+    animation-play-state: running;
+}
+
+.button-container button.reverse-animate {
+    -webkit-animation: ani2 0.7s steps(70) forwards;
+    animation: ani2 0.7s steps(70) forwards;
+    animation-play-state: running;
+}
+
+.mas {
+    position: absolute;
+    text-align: center;
+}
+
+@-webkit-keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+}
+
+@keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+}
+
+@-webkit-keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+}
+
+@keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+}

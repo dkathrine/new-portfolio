@@ -1,0 +1,85 @@
+.project_card_picture{
+    width: 250px;
+    transition: all 0.3s ease;
+}
+
+.project_card_picture:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project_card_title{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.project_card_desc{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 426px){
+    .project_card_picture{
+        width: 290px;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .project_card_picture{
+        width: 300px;
+    }
+    
+    .project_card_title{
+        font-size: 1.1rem;
+    }
+    
+    .project_card_desc{
+        font-size: 0.975rem;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .project_card_picture{
+        width: 300px;
+    }
+    
+    .project_card_title{
+        font-size: 1.15rem;
+    }
+    
+    .project_card_desc{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1281px){
+    .project_card_picture{
+        width: 320px;
+    }
+    
+    .project_card_title{
+        font-size: 1.15rem;
+    }
+    
+    .project_card_desc{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1439px){
+    .project_card_picture{
+        width: 350px;
+    }
+    
+    .project_card_title{
+        font-size: 1.25rem;
+    }
+    
+    .project_card_desc{
+        font-size: 1.05rem;
+    }
+}
+@media only screen and (min-width: 1769px){
+
+}

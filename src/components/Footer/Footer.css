@@ -1,0 +1,18 @@
+.mobile_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #261A33;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.mobile_footer a{
+    color: #AD94C7;
+    transition: all 0.5s ease;
+}
+
+.mobile_footer a:hover, .mobile_footer a:focus{
+    color: #e5d4f7;
+}

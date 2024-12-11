@@ -1,0 +1,51 @@
+  .btn {
+      position: relative;
+      width: 197px;
+      height: 62px;
+      background-color: transparent;
+      cursor: pointer;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .socials_flex_container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 10px; 
+    padding: 10px; 
+    width: 100%; 
+    min-height: 62px; 
+  }
+  
+  .btn .border {
+      position: absolute;
+      left: 62%;
+      top: 49%;
+      transform: translate(-50%, -50%);
+      border-style: none;
+      z-index: 1;
+  }
+  
+  .btn .border rect {
+      stroke-width: 2;
+      stroke-dasharray: 486;
+      stroke-dashoffset: 550;
+      -webkit-transition: all 400ms ease;
+      transition: all 400ms ease;
+  }
+  
+  .btn:hover .border rect {
+      stroke-dasharray:243,0;
+      stroke-dashoffset: 43;
+  }
+
+  @media only screen and (max-width:1023px ){
+    .border {
+        display: none;
+    }
+  }

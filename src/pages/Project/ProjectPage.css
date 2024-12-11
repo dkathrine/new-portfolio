@@ -1,0 +1,143 @@
+.project_page_container{
+    flex: 1;
+}
+
+.project_page_content{
+    margin: 0.5rem 1.2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    h2{
+        font-size: 1.18rem;
+    }
+}
+
+.project_page_img{
+    max-width: 100%;
+}
+
+.project_page_title_container{
+    margin: 1rem 0;
+}
+
+.project_page_title{
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.project_page_type{
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+
+.project_page_section{
+    margin-bottom: 0.5rem;
+    ul{
+        list-style-type: disc;
+        padding: 0 1.3rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+    }
+}
+
+.project_page_contribution{
+    h3{
+        margin: 0.5rem 0;
+    }
+    ul{
+        margin-bottom: 0.5rem;
+    }
+}
+
+.project_page_buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 426px){
+}
+
+@media only screen and (min-width: 769px){
+    .project_page_img{
+        border-radius: 10px;
+        img{
+            border-radius: 10px;
+        }
+        margin: 1.2rem;
+    }
+    
+    .project_page_title{
+        font-size: 1.45rem;
+    }
+    
+    .project_page_type{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 1025px){    
+    .project_page_title{
+        font-size: 1.5rem;
+    }
+    
+    .project_page_type{
+        font-size: 1.2rem;
+    }
+    .project_page_img{
+        margin: 1.2rem 4rem;
+    }
+    .project_page_content{
+        margin: 0.5rem 4rem 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1281px){    
+    .project_page_title{
+        font-size: 1.6rem;
+    }
+    
+    .project_page_type{
+        font-size: 1.3rem;
+    }
+    .project_page_img{
+        margin: 2.2rem 8rem 1.2rem;
+    }
+    .project_page_content{
+        margin: 0.5rem 8rem 1.5rem;
+    }
+    .project_page_buttons{
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1439px){
+    .project_page_title{
+        font-size: 1.7rem;
+    }
+    
+    .project_page_type{
+        font-size: 1.35rem;
+    }
+    .project_page_img{
+        margin: 2.2rem 9rem 1.2rem;
+    }
+    .project_page_content{
+        margin: 0.5rem 9rem 1.5rem;
+    }
+}
+@media only screen and (min-width: 1769px){
+    .project_page_img{
+        margin: 2.2rem 14rem 1.2rem;
+    }
+    .project_page_content{
+        margin: 0.5rem 14rem 1.5rem;
+    }
+}

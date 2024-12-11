@@ -1,0 +1,47 @@
+.projects_main{
+    padding: 1rem;
+    flex: 1;
+}
+.projects_section h2{
+    text-align: left;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 769px){
+    .projects_main{
+       padding-left: 4rem;
+       padding-right: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+}
+
+@media only screen and (min-width: 1281px){
+    .projects_main{
+       padding-left: 6rem;
+       padding-right: 6rem;
+    }
+}
+
+@media only screen and (min-width: 1439px){
+    .projects_main{
+       padding-left: 8rem;
+       padding-right: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1769px){
+    .projects_main{
+       padding-left: 13rem;
+       padding-right: 13rem;
+    }
+}
