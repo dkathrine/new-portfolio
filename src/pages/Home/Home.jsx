@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <>
             <SEOComponent
-                title="Home - Kathrine Beuth | Full-Stack Web Developer"
+                title="Portfolio - Kathrine Beuth | Full-Stack Web Developer"
                 description="Hi, I'm Kathrine, a web developer based in Germany/NRW. I create user-friendly and functional websites. Check out my portfolio and let's collaborate!"
                 keywords="web developer, Kathrine Beuth, portfolio, Germany web developer, responsive design"
                 author="Kathrine Beuth"
