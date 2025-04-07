@@ -89,7 +89,7 @@ const AboutMe = () => {
                                         expIcon={<BriefcaseBusiness />}
                                         expAs={"Front-End Web Developer"}
                                         expFrom={"05/2024"}
-                                        expTo={"Present"}
+                                        expTo={"02/2025"}
                                         expLoc={"Career-Threads GmbH"}
                                     />
                                     <ExpCard
@@ -102,6 +102,13 @@ const AboutMe = () => {
                                 </section>
                                 <section className='about_section about_exp'>
                                     <h2>Education</h2>
+                                    <ExpCard
+                                        expIcon={<GraduationCap />}
+                                        expAs={"App Development Course"}
+                                        expFrom={"03/2025"}
+                                        expTo={"Present"}
+                                        expLoc={"App Akademie"}
+                                    />
                                     <ExpCard
                                         expIcon={<GraduationCap />}
                                         expAs={"Full-Stack Web Development Course"}
