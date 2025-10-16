@@ -74,9 +74,10 @@ const AboutMe = () => {
                                 <Badge badgeName={"Node.js"} />
                                 <Badge badgeName={"Express.js"} />
                                 <Badge badgeName={"REST API"} />
-                                <Badge badgeName={"PHP"} />
                                 <Badge badgeName={"MongoDB"} />
                                 <Badge badgeName={"Mongoose"} />
+                                <Badge badgeName={"Dart"} />
+                                <Badge badgeName={"Flutter"} />
                             </div>
                         </section>
                     </MotionSection>
