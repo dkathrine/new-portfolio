@@ -23,7 +23,7 @@ const Home = () => {
         <>
             <SEOComponent
                 title="Portfolio - Kathrine Beuth | Full-Stack Web Developer"
-                description="Hi, I'm Kathrine, a web developer based in Germany/NRW. I create user-friendly and functional websites. Check out my portfolio and let's collaborate!"
+                description="Hi, I'm Kathrine, a web developer based in Germany/NRW. I create modern, user-friendly and functional websites. Check out my portfolio and let's collaborate!"
                 keywords="web developer, Kathrine Beuth, portfolio, Germany web developer, responsive design"
                 author="Kathrine Beuth"
                 ogUrl="https://portfolio-kathrine.vercel.app"
@@ -34,7 +34,7 @@ const Home = () => {
                 <main className='home_header'>
                     <div className='home_header_content'>
                         <h1>Hi, I'm Kathrine</h1>
-                        <p>I'm a web developer based in Germany/NRW with a passion for creating beautiful, user-friendly and functional websites.</p>
+                        <p>I'm a web developer based in Germany/NRW with a passion for creating modern, user-friendly and functional websites.</p>
                         {isMobile && (<p className='reminder'><i>For the best experience, please view on Desktop</i></p>)}
                     </div>
                     <div className='home_header_picture flex -space-x-1 flex-col' >

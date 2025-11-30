@@ -1,16 +1,5 @@
 [
     {
-      "id": 1,
-      "title": "My Portfolio",
-      "type": "Portfolio Website",
-      "img": ["/showcase_img_portfolio.jpg"],
-      "desc": "My portfolio website serves as a showcase for my projects, highlighting my skills and demonstrating what I can create.",
-      "myJob": "",
-      "tools": ["HTML", "CSS", "Javascript", "React", "TailwindCSS"],
-      "linkProject": "https://github.com/dkathrine/new-portfolio",
-      "linkDeploy": "https://dkat.dev/"
-    },
-    {
       "id": 2,
       "title": "Neues aus Aschaffenburg",
       "type": "News Website",
@@ -20,6 +9,17 @@
       "tools": ["HTML", "CSS", "Javascript", "React", "GIT", "Github"],
       "linkProject": "https://github.com/dkathrine/naa-frontend",
       "linkDeploy": ""
+    },
+    {
+        "id": 8,
+        "title": "CTRLBuddy",
+        "type": "Gaming Forum Mobile App",
+        "img": ["/showcase_img_ctrlb.png","/showcase_img_ctrlb2.png","/showcase_img_ctrlb3.png"],
+        "desc": "CTRLBuddy is a real-time gaming forum mobile application that enables gamers to create and participate in discussions organized by game titles, featuring live commenting, engagement tracking, and customizable user profiles.",
+        "myJob": "<p>This project involved building a full-stack mobile application from the ground up using <strong>Flutter</strong> and <strong>Firebase</strong>, creating a Reddit-style forum exclusively for gaming communities.</p><h3>Key Contributions:</h3><ul><li><strong>Authentication & User Management:</strong> Implemented Firebase Authentication with email/password login, complete profile setup flow, and profile editing with 33 customizable profile picture options.</li><li><strong>Real-time Architecture:</strong><ul><li>Implemented StreamBuilder pattern throughout the app for instant synchronization between devices.</li><li>Users can chat in real-time with comments appearing instantly on all connected devices.</li></ul></li><li><strong>Thread & Comment System:</strong><ul><li>Built game-based thread organization with Cloudinary integration for game cover images.</li><li>Developed live commenting functionality with dynamic profile picture loading.</li><li>Created a custom TimeDisplay widget with periodic updates (1s, 2m, 3h ago → full date after 24h).</li></ul></li><li><strong>Engagement Features:</strong><ul><li>Implemented array-based like/unlike system for threads and comments to prevent duplicate likes.</li><li>Developed popularity ranking algorithm combining thread and comment likes.</li><li>Added visual feedback with filled/outline heart icons.</li></ul></li><li><strong>Smart Data Handling:</strong><ul><li>Implemented null-safe design with \"Deleted User\" fallbacks for deleted accounts.</li><li>Profile picture changes propagate across all user content dynamically.</li></ul></li><li><strong>UI/UX Enhancements:</strong><ul><li>Built responsive layouts with proper scroll padding for floating UI elements.</li><li>Implemented immersive mode, hiding system navigation bars.</li><li>Created custom widgets including horizontal cards, content cards, and search cards.</li><li>Added profile picture selector with modal grid display.</li></ul></li></ul><p>This project demonstrates my ability to architect and build complex real-time applications with modern mobile development practices, focusing on user experience and performance optimization.</p>",
+        "tools": ["Flutter", "Dart", "Firebase Authentication", "Cloud Firestore", "Cloudinary", "GIT", "Github", "Figma"],
+        "linkProject": "https://github.com/dkathrine/CTRLBuddy",
+        "linkDeploy": ""
     },
     {
         "id": 3,
@@ -64,6 +64,17 @@
         "tools": ["HTML", "CSS", "Javascript", "React", "MaterialUI", "Express.js", "MongoDB", "Mongoose", "GIT", "Github"],
         "linkProject": "https://github.com/dkathrine/Image-Board",
         "linkDeploy": ""
+    },
+    {
+        "id": 1,
+        "title": "My Portfolio",
+        "type": "Portfolio Website",
+        "img": ["/showcase_img_portfolio.jpg"],
+        "desc": "My portfolio website serves as a showcase for my projects, highlighting my skills and demonstrating what I can create.",
+        "myJob": "",
+        "tools": ["HTML", "CSS", "Javascript", "React", "TailwindCSS"],
+        "linkProject": "https://github.com/dkathrine/new-portfolio",
+        "linkDeploy": "https://dkat.dev/"
     },
     {
         "id": 7,

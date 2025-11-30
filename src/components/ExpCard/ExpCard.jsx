@@ -11,8 +11,12 @@ const ExpCard = ({ expIcon, expLoc, expFrom, expTo, expAs, expLink }) => {
                                 {expIcon}
                             </div>
                             <div className="flex flex-col flex-wrap justify-center">
-                                <p className="exp_title text-white text-base font-medium leading-normal line-clamp-2 self-start">{expAs}</p>
-                                <p className="text-[#ad93c8] text-sm font-normal leading-normal line-clamp-2">{expFrom} - {expTo} {expLoc && "·"} <nobr>{expLoc}</nobr></p>
+                                <div className="flex flex-row flex-wrap">
+                                    <p className="exp_title text-white text-base font-medium leading-normal line-clamp-2 self-start">{expAs}</p>
+                                    <span>&nbsp;</span>
+                                    <p className="exp_title text-[#ad93c8] text-xs font-normal leading-6 line-clamp-2 ">Certificate</p>
+                                </div>
+                                <p className="text-[#ad93c8] text-sm font-normal leading-normal line-clamp-2 self-start">{expFrom} - {expTo} {expLoc && "·"} <nobr>{expLoc}</nobr></p>
                             </div>
                         </div>
                     </a>

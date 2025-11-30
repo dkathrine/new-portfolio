@@ -49,7 +49,7 @@ const AboutMe = () => {
                     <MotionSection direction="right" delay={0.7}>
                         <div className='about_header_content'>
                             <p>
-                                I'm a web developer with a passion for creating beautiful, user-friendly and functional websites. I mostly worked in front-end development, but I'm also familiar with back-end programming and I am always eager to learn more. I've worked with the latest technologies including React, Vue, Node.js, and NoSQL Databases.
+                                I'm a web developer with a passion for creating modern, user-friendly and functional websites. I mostly worked in front-end development, but I'm also familiar with back-end programming and I am always eager to learn more. I've worked with the latest technologies including React, Vue, Node.js, and NoSQL Databases.
                             </p>
                         </div>
                     </MotionSection>
@@ -105,14 +105,14 @@ const AboutMe = () => {
                                     <h2>Education</h2>
                                     <ExpCard
                                         expIcon={<GraduationCap />}
-                                        expAs={"App Development Course"}
+                                        expAs={"App Development Training"}
                                         expFrom={"03/2025"}
                                         expTo={"Present"}
                                         expLoc={"App Akademie"}
                                     />
                                     <ExpCard
                                         expIcon={<GraduationCap />}
-                                        expAs={"Full-Stack Web Development Course"}
+                                        expAs={"Full-Stack Web Development Training"}
                                         expFrom={"06/2022"}
                                         expTo={"08/2023"}
                                         expLoc={"Digital Career Institute"}
