@@ -109,6 +109,7 @@ const AboutMe = () => {
                                         expFrom={"03/2025"}
                                         expTo={"Present"}
                                         expLoc={"App Akademie"}
+                                        expLink={"/Zertifikat_Beuth_Kathrine_App_Akadmie.pdf"}
                                     />
                                     <ExpCard
                                         expIcon={<GraduationCap />}
