@@ -150,11 +150,6 @@ const AboutMe = () => {
                                     socialsLink={"https://github.com/dkathrine"}
                                 />
                                 <Socials
-                                    socialsIcon={<Linkedin />}
-                                    socialsName={"Kathrine Beuth"}
-                                    socialsLink={"https://www.linkedin.com/in/kathrine-beuth-39a8b9250/"}
-                                />
-                                <Socials
                                     socialsIcon={<Mail />}
                                     socialsName={"E-Mail"}
                                     socialsLink={"mailto:kathrinebeuth@web.de"}
